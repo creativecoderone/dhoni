@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Baumans|Didact+Gothic|Manjari|Pacifico|Quicksand|Reem+Kufi|Righteous|Tenali+Ramakrishna&display=swap');
+#title {
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    width: 100%;
+    margin: 0px;
+    padding: 15px;
+    color: rgb(149, 50, 50);
+    background-color: white;
+    border-bottom: 2px solid rgb(149, 50, 50);
+}
+
+* {
+    font-size: 20px;
+}
+
+div {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+}
+
+#tit:hover {
+    font-size: 30px;
+    transition-delay: 0.5s;
+    cursor: pointer;
+}
+
+#img-div {
+    margin-top: 115px;
+}
+
+#image {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    width: 40%;
+    height: auto;
+    border-radius: 15px;
+}
+
+#image:hover {
+    transform: scale(0.9);
+    transition-delay: 1s;
+    border: 2px solid rgb(149, 50, 50);
+}
+
+#img-caption {
+    text-align: center;
+    padding: 5px;
+    /*   margin :5px; */
+}
+
+#main {
+    margin: 15px;
+}
+
+#tribute-info {
+    margin: 10px;
+    border: 2px solid rgb(149, 50, 50);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#tit2 {
+    font-size: 36px;
+    color: rgb(149, 50, 50);
+    word-break: words;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    z-index: -1;
+    /*   border: 1px solid  rgb(149,50,50); */
+    padding: 15px;
+    border-radius: 10px;
+    /*   margin: 20px; */
+}
+
+td {
+    padding: 5px;
+}
+
+tr {
+    align-content: justify;
+    font-size: 20px;
+}
+
+th {
+    font-size: 22px;
+    border-bottom: 1px solid rgb(149, 50, 50);
+}
+
+#tribute-link {
+    float: right;
+    background-color: rgb(149, 50, 50);
+    padding: 10px;
+    margin: 5px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+}
+
+.flx {
+    display: flex;
+    /*   border: 1px solid crimson; */
+    margin: 10px;
+}
+
+.crim {
+    height: 100px;
+    width: 25%;
+    /*   background-color: crimson; */
+}
+
+.vrim {
+    height: 100px;
+    width: 25%;
+    background-color: green;
+}
+
+#i2 {
+    width: 100%;
+}
+
+#i2:hover {
+    transform: scale(0.8);
+    border: 3px solid crimson;
+    transition-delay: 0.5s;
+    /*   transform: rotate(-2deg); */
+}
